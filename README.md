@@ -62,6 +62,7 @@ Then:
 kubectl logs -l run=hello-kubernetes
 ```
 
+
 * Kubernetes should now greet you by name.  If you see a message that the container is waiting to start, you may have to wait a little longer.
 * To delete your test Kubernetes cluster, run:
 
